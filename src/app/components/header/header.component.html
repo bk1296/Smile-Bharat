@@ -1,0 +1,32 @@
+<header>
+<nav class="navbar navbar-expand-lg navbar-white fixed-top">
+      <div class="container-fluid no-lr-pad hd_ft_back">
+        <a class="navbar-brand" href="#">
+          <img src="assets/img/smile-bharat.jpg" class="img-thumbnail" width="120" height="55" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" (click)="toggleNavbar()">
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" [ngClass]="{ 'show': navbarOpen }">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#objective">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#carousel">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">About us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+</nav>
+</header>
